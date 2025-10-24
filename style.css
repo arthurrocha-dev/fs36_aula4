@@ -4,12 +4,46 @@
 
 #titulo {
   color: #3871a7;
+  font-size: 50px;
 }
 
 .subtitulo {
   color: #39393c;
+  margin-bottom: 50px;
 }
 
 .container {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+#minha-foto {
+  height: 350px;
+  border-radius: 12px;
+}
+
+.botao1 {
+  background-color: #3871a7;
+  color: white;
+  font-weight: bold;
+  padding: 5px 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.botao2 {
+  background-color: transparent;
+  color: #3871a7;
+  font-weight: bold;
+  padding: 5px 30px;
+  border: 2px solid #3871a7;
+  border-radius: 5px;
+}
+
+.container-button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
